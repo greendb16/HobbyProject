@@ -2,13 +2,17 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>Lucky Charms</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <th:block th:replace="/base :: bootstrap">...</th:block>
-    <th:block th:replace="/base :: navbar">...</th:block>
+    <link rel="stylesheet" type="text/css" href="NewStyle.css">
+
+
+
 </head>
 <body>
-
+<th:block th:replace="/base :: navbar">...</th:block>
+<th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

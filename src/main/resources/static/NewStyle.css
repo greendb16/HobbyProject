@@ -1,0 +1,8 @@
+body, html {
+    height: 100%;
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562686713/120402_iol9r8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
