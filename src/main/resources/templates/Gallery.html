@@ -5,12 +5,15 @@
     <title>Recipes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <th:block th:replace="/base :: bootstrap">...</th:block>
-    <th:block th:replace="/base :: navbar">...</th:block>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="NewStyle.css">
+
+
 </head>
 
 
 <body>
+<th:block th:replace="/base :: navbar">...</th:block>
 <div class="card-deck">
     <div class="card">
         <img src="https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,w_550/v1562609706/HobbyProject/16800-blue-ribbon-apple-pie-600x600_ps8gn9.jpg" class="card-img-top" alt="Apple Pie">
@@ -61,6 +64,8 @@
 <a href="/ChocolateChipCookieRecipe">Chocolate Chip Cookies</a>
 <a href="/LasagnaRecipe">Lasagna</a>
 <a href="/LuckyCharmsRecipe">Lucky Charms</a>
+
+<th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 
 </html>
