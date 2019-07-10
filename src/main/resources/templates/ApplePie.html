@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
-lang="en">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Apple Pie</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <th:block th:replace="/base :: bootstrap">...</th:block>
-    <th:block th:include="/base :: navbar">...</th:block>
+    <th:block th:replace="/base :: MetaLinks">...</th:block>
 </head>
+
 <body>
+<th:block th:replace="/base :: navbar">...</th:block>
 
-Apple Pie
-
+<br/>
+<div class="container">
+    <h2>Apple Pie</h2>
+    <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,w_550/v1562609706/HobbyProject/16800-blue-ribbon-apple-pie-600x600_ps8gn9.jpg
+         alt="Apple Pie">
+    <h2>Ingredients</h2>
+    <ul>
+        <li>5 Granny Smith Apples</li>
+        <li>5 Golden Delicious Apples</li>
+        <li>Sugar</li>
+        <li>Brown Sugar</li>
+        <li>Butter</li>
+        <li>Cinnamon</li>
+        <li>Pie Crust</li>
+        <li>Lemon</li>
+    </ul>
+    <h2>Directions</h2>
+    <ol>
+        <li>Peel and Slice Apples</li>
+        <li>Zest Lemon</li>
+        <li>Juice Lemon</li>
+        <li>Combine Sugar, Brown Sugar, and Apples</li>
+        <li>Cook Apples over medium ~15 min</li>
+        <li>Cool Apples</li>
+        <li>Drain Apples saving liquid</li>
+        <li>Put Pie Crust in dish</li>
+        <li>Put Apples in Pie Crust</li>
+        <li>Combine Lemon juice and Apple juice</li>
+        <li>Pour Juice mix over apples</li>
+        <li>Apply top crust</li>
+        <li>Apply Egg White to pie crust</li>
+        <li>bake at 425 Degrees for 15 min</li>
+        <li>Rotate pie 1801 Degrees, Continue Cooking at 375 Degrees for 20 min</li>
+    </ol>
+    <h2>Serves 8-10</h2>
+</div>
+<th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

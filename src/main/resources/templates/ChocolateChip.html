@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
-    <title>Chocolate Chip Cookie</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <th:block th:replace="/base :: bootstrap">...</th:block>
-    <th:block th:replace="/base :: navbar">...</th:block>
-
+    <title>ChocolateChip Cookies</title>
+    <th:block th:replace="/base :: MetaLinks">...</th:block>
 </head>
-<body>
 
+<body>
+<th:block th:replace="/base :: navbar">...</th:block>
+
+<br/>
+<div class="container">
+    <h2>Chocolate Chip Cookies</h2>
+    <img src=http://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-550x550_j4gyma.jpg
+         alt="Chocolate CHip Cookies">
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Butter</li>
+        <li>Sugar</li>
+        <li>Brown Sugar</li>
+        <li>Eggs</li>
+        <li>Flour</li>
+        <li>Vanilla Extract</li>
+        <li>Chocolate Chips</li>
+        <li>Salt</li>
+        <li>Baking Soda</li>
+    </ul>
+    <h2>Directions</h2>
+    <ol>
+        <li>Combine Butter and Sugar</li>
+        <li>Beat in Eggs</li>
+        <li>Add Vanilla</li>
+        <li>Add Flour, Salt, and Baking Soda</li>
+        <li>Add Chocolate Chips</li>
+        <li>Bake for 10 min at 350 Degrees</li>
+    </ol>
+
+    <h2>Serves 12</h2>
+</div>
+<th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

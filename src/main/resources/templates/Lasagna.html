@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Lasagna</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <th:block th:replace="/base :: bootstrap">...</th:block>
-    <th:block th:replace="/base :: navbar">...</th:block>
+    <th:block th:replace="/base :: MetaLinks">...</th:block>
 </head>
-<body>
 
+<body>
+<th:block th:replace="/base :: navbar">...</th:block>
+
+<br/>
+<div class="container">
+    <div class="Jumbotron">
+        <h2>Lasagna</h2>
+        <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/HobbyProject/Best-Lasagna-550_fnunbt.jpg
+             alt="Lasagna">
+    </div>
+</div>
+
+<div class="container">
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Lasagna Noodles</li>
+        <li>Meat</li>
+        <li>Tomato Sauce</li>
+        <li>Ricotta Cheese</li>
+        <li>Parmasian Cheese</li>
+    </ul>
+    <h2>Directions</h2>
+    <ol>
+        <li>Boil Lasagna Noodles</li>
+        <li>Brown Meat</li>
+        <li>Combine Meat and Sauce</li>
+        <li>Layer in dish:<br>
+            <ul>
+                <li>Meat-Sauce</li>
+                <li>Ricotta Cheese</li>
+                <li>Noodle</li>
+                <li>Parmasian Cheese</li>
+                <li>Repeat</li>
+            </ul>
+
+        </li>
+        <li>Cook 1 hr at 350 Degrees</li>
+    </ol>
+    <h2>Serves 8-10</h2>
+</div>
+<th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>Lucky Charms</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="NewStyle.css">
-
-
-
+    <title>Luck Charms</title>
+    <th:block th:replace="/base :: MetaLinks">...</th:block>
 </head>
+
 <body>
 <th:block th:replace="/base :: navbar">...</th:block>
+
+<br/>
+<div class="container">
+    <h2>Lucky Charms</h2>
+    <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562609706/HobbyProject/14803357412_929a93260b_k_gxlqxh.jpg
+         alt="Lucky Charms">
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Lucky Charms Cereal</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Directions</h2>
+    <ol>
+        <li>Open box of cereal</li>
+        <li>Pour cereal into bowl</li>
+        <li>Eat with Spoon</li>
+    </ol>
+        <h6>Alternative:</h6>
+    <ol>
+        <li>Open box of cereal</li>
+        <li>Take Fistful of cereal</li>
+        <li>Put cereal in mouth</li>
+    </ol>
+         <h6>Alternative:</h6>
+    <ol>
+        <li>Open box of cereal</li>
+        <li>Sort between marshmallows and non-marshmallows</li>
+        <li>Throw away non-marshmallows</li>
+        <li>Eat Marshmallows</li>
+    </ol>
+    <h2>Serves 1</h2>
+</div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>
