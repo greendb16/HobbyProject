@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>ChocolateChip Cookies</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
@@ -13,33 +14,42 @@
 
 <br/>
 <div class="container">
-    <h2>Chocolate Chip Cookies</h2>
-    <img src=http://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-550x550_j4gyma.jpg
-         alt="Chocolate CHip Cookies">
+    <div class="jumbotron" id="RecipeTitle">
+        <h1 class="display-4" align="center">Chocolate Chip Cookies</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <img src=http://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-550x550_j4gyma.jpg
+             alt="Chocolate CHip Cookies">
+        <div class="card-body">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Butter</li>
+                <li>Sugar</li>
+                <li>Brown Sugar</li>
+                <li>Eggs</li>
+                <li>Flour</li>
+                <li>Vanilla Extract</li>
+                <li>Chocolate Chips</li>
+                <li>Salt</li>
+                <li>Baking Soda</li>
+            </ul>
+            <h2>Directions</h2>
+            <ol>
+                <li>Combine Butter and Sugar</li>
+                <li>Beat in Eggs</li>
+                <li>Add Vanilla</li>
+                <li>Add Flour, Salt, and Baking Soda</li>
+                <li>Add Chocolate Chips</li>
+                <li>Bake for 10 min at 350 Degrees</li>
+            </ol>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Butter</li>
-        <li>Sugar</li>
-        <li>Brown Sugar</li>
-        <li>Eggs</li>
-        <li>Flour</li>
-        <li>Vanilla Extract</li>
-        <li>Chocolate Chips</li>
-        <li>Salt</li>
-        <li>Baking Soda</li>
-    </ul>
-    <h2>Directions</h2>
-    <ol>
-        <li>Combine Butter and Sugar</li>
-        <li>Beat in Eggs</li>
-        <li>Add Vanilla</li>
-        <li>Add Flour, Salt, and Baking Soda</li>
-        <li>Add Chocolate Chips</li>
-        <li>Bake for 10 min at 350 Degrees</li>
-    </ol>
+            <h2>Serves 12</h2>
+        </div>
+    </div>
 
-    <h2>Serves 12</h2>
+
 </div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>

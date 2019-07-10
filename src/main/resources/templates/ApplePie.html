@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Apple Pie</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
@@ -13,39 +14,49 @@
 
 <br/>
 <div class="container">
-    <h2>Apple Pie</h2>
-    <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,w_550/v1562609706/HobbyProject/16800-blue-ribbon-apple-pie-600x600_ps8gn9.jpg
-         alt="Apple Pie">
-    <h2>Ingredients</h2>
-    <ul>
-        <li>5 Granny Smith Apples</li>
-        <li>5 Golden Delicious Apples</li>
-        <li>Sugar</li>
-        <li>Brown Sugar</li>
-        <li>Butter</li>
-        <li>Cinnamon</li>
-        <li>Pie Crust</li>
-        <li>Lemon</li>
-    </ul>
-    <h2>Directions</h2>
-    <ol>
-        <li>Peel and Slice Apples</li>
-        <li>Zest Lemon</li>
-        <li>Juice Lemon</li>
-        <li>Combine Sugar, Brown Sugar, and Apples</li>
-        <li>Cook Apples over medium ~15 min</li>
-        <li>Cool Apples</li>
-        <li>Drain Apples saving liquid</li>
-        <li>Put Pie Crust in dish</li>
-        <li>Put Apples in Pie Crust</li>
-        <li>Combine Lemon juice and Apple juice</li>
-        <li>Pour Juice mix over apples</li>
-        <li>Apply top crust</li>
-        <li>Apply Egg White to pie crust</li>
-        <li>bake at 425 Degrees for 15 min</li>
-        <li>Rotate pie 1801 Degrees, Continue Cooking at 375 Degrees for 20 min</li>
-    </ol>
-    <h2>Serves 8-10</h2>
+    <div class="jumbotron" id="RecipeTitle">
+        <h1 class="display-4" align="center">Apple Pie</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,w_550/v1562609706/HobbyProject/16800-blue-ribbon-apple-pie-600x600_ps8gn9.jpg
+             alt="Apple Pie">
+        <div class="card-body">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>5 Granny Smith Apples</li>
+                <li>5 Golden Delicious Apples</li>
+                <li>Sugar</li>
+                <li>Brown Sugar</li>
+                <li>Butter</li>
+                <li>Cinnamon</li>
+                <li>Pie Crust</li>
+                <li>Lemon</li>
+            </ul>
+            <h2>Directions</h2>
+            <ol>
+                <li>Peel and Slice Apples</li>
+                <li>Zest Lemon</li>
+                <li>Juice Lemon</li>
+                <li>Combine Sugar, Brown Sugar, and Apples</li>
+                <li>Cook Apples over medium ~15 min</li>
+                <li>Cool Apples</li>
+                <li>Drain Apples saving liquid</li>
+                <li>Put Pie Crust in dish</li>
+                <li>Put Apples in Pie Crust</li>
+                <li>Combine Lemon juice and Apple juice</li>
+                <li>Pour Juice mix over apples</li>
+                <li>Apply top crust</li>
+                <li>Apply Egg White to pie crust</li>
+                <li>bake at 425 Degrees for 15 min</li>
+                <li>Rotate pie 1801 Degrees, Continue Cooking at 375 Degrees for 20 min</li>
+            </ol>
+            <h2>Serves 8-10</h2>
+        </div>
+    </div>
+
+
 </div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>

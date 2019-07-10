@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Key Lime Pie</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
@@ -13,37 +14,42 @@
 
 <br/>
 <div class="container">
-
-            <h2>Key Lime Pie</h2>
-            <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_fill,h_550,w_550/v1562609706/HobbyProject/Key-Lime-Pie-with-Graham-Cracker-Crust-6-Copy-1-660x440_m3kpde.jpg
-                alt="KeyLime Pie">
-
-
-
-
-<h2>Ingredients</h2>
-<ul>
-    <li>Limes</li>
-    <li>Condensed Milk</li>
-    <li>Eggs</li>
-    <li>GrahamCracker</li>
-    <li>Butter</li>
-</ul>
-<h2>Directions</h2>
-<ol>
-    <li>Juice and zest limes</li>
-    <li>Whisk egg yolks and limes</li>
-    <li>Whisk in Condensed milk</li>
-    <li>Chill in fridge</li>
-    <li>Crush Crackers</li>
-    <li>Mix Crackers with butter</li>
-    <li>Cook crust 15 min in pie dish</li>
-    <li>Add cream to crust</li>
-    <li>Cook pie 25 min</li>
-    <li>Chill Pie</li>
-</ol>
-<h2>Serves 8-10</h2>
+    <div class="jumbotron" id="RecipeTitle">
+        <h1 class="display-4" align="center">Key Lime Pie</h1>
+    </div>
 </div>
+<div class="container">
+<div class="card">
+    <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_fill,h_550,w_550/v1562609706/HobbyProject/Key-Lime-Pie-with-Graham-Cracker-Crust-6-Copy-1-660x440_m3kpde.jpg
+         alt="KeyLime Pie">
+    <div class="card-body">
+
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Limes</li>
+            <li>Condensed Milk</li>
+            <li>Eggs</li>
+            <li>GrahamCracker</li>
+            <li>Butter</li>
+        </ul>
+        <h2>Directions</h2>
+        <ol>
+            <li>Juice and zest limes</li>
+            <li>Whisk egg yolks and limes</li>
+            <li>Whisk in Condensed milk</li>
+            <li>Chill in fridge</li>
+            <li>Crush Crackers</li>
+            <li>Mix Crackers with butter</li>
+            <li>Cook crust 15 min in pie dish</li>
+            <li>Add cream to crust</li>
+            <li>Cook pie 25 min</li>
+            <li>Chill Pie</li>
+        </ol>
+        <h2>Serves 8-10</h2>
+    </div>
+</div>
+</div>
+
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

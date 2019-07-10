@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Luck Charms</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
@@ -13,35 +14,45 @@
 
 <br/>
 <div class="container">
-    <h2>Lucky Charms</h2>
-    <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562609706/HobbyProject/14803357412_929a93260b_k_gxlqxh.jpg
-         alt="Lucky Charms">
+    <div class="jumbotron" id="RecipeTitle">
+        <h1 class="display-4" align="center">Lucky Charms</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562609706/HobbyProject/14803357412_929a93260b_k_gxlqxh.jpg
+             alt="Lucky Charms">
+        <div class="card-body">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Lucky Charms Cereal</li>
+                <li>Milk</li>
+            </ul>
+            <h2>Directions</h2>
+            <ol>
+                <li>Open box of cereal</li>
+                <li>Pour cereal into bowl</li>
+                <li>Eat with Spoon</li>
+            </ol>
+            <h6>Alternative:</h6>
+            <ol>
+                <li>Open box of cereal</li>
+                <li>Take Fistful of cereal</li>
+                <li>Put cereal in mouth</li>
+            </ol>
+            <h6>Alternative:</h6>
+            <ol>
+                <li>Open box of cereal</li>
+                <li>Sort between marshmallows and non-marshmallows</li>
+                <li>Throw away non-marshmallows</li>
+                <li>Eat Marshmallows</li>
+            </ol>
+            <h2>Serves 1</h2>
+        </div>
+    </div>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Lucky Charms Cereal</li>
-        <li>Milk</li>
-    </ul>
-    <h2>Directions</h2>
-    <ol>
-        <li>Open box of cereal</li>
-        <li>Pour cereal into bowl</li>
-        <li>Eat with Spoon</li>
-    </ol>
-        <h6>Alternative:</h6>
-    <ol>
-        <li>Open box of cereal</li>
-        <li>Take Fistful of cereal</li>
-        <li>Put cereal in mouth</li>
-    </ol>
-         <h6>Alternative:</h6>
-    <ol>
-        <li>Open box of cereal</li>
-        <li>Sort between marshmallows and non-marshmallows</li>
-        <li>Throw away non-marshmallows</li>
-        <li>Eat Marshmallows</li>
-    </ol>
-    <h2>Serves 1</h2>
+
+
 </div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>

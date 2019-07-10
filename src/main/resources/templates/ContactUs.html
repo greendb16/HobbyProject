@@ -4,12 +4,67 @@
     <meta charset="UTF-8">
     <title>Contact Us</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
 <th:block th:replace="/base :: navbar">...</th:block>
-Contact info
-
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Management
+                </div>
+                <img src="https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562779004/freestock_image_by_goldman555-d495w4s_d5ti47.jpg"
+                     class="card-img-top" alt="Bob">
+                <div class="card-body">
+                    <h5 class="card-title">Bob, Manager</h5>
+                    <p class="card-text">Can I speak to your manager......</p>
+                    <a href="/ApplePieRecipe">MrManagerAKABob@RecipesExtravaganza.Com</a>
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Feedback
+                </div>
+                <img src="https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562779035/28351-business-people-stock_b9wdoe.jpg"
+                     class="card-img-top" alt="Bob">
+                <div class="card-body">
+                    <h5 class="card-title">Jim, Complaint Consultant</h5>
+                    <p class="card-text">Any comments?  Criticisms?</p>
+                    <a href="#">LikeWeCare@RecipesExtravaganza.Com</a>
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Quality Assurance
+                </div>
+                <img src="https://res.cloudinary.com/dv2nrlkn5/image/upload/c_scale,h_550,w_550/v1562779071/o-ICE-POP-570_iqliq9.jpg"
+                     class="card-img-top" alt="Bob">
+                <div class="card-body">
+                    <h5 class="card-title">Sally, Food Taster</h5>
+                    <p class="card-text">Curious how we choose our Recipes?</p>
+                    <a href="/ApplePieRecipe">SoupSaladSally@RecipesExtravaganza.Com</a>
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Lasagna</title>
     <th:block th:replace="/base :: MetaLinks">...</th:block>
+    <th:block th:replace="/base :: BackgroundStyle">...</th:block>
 </head>
 
 <body>
@@ -13,40 +14,45 @@
 
 <br/>
 <div class="container">
-    <div class="Jumbotron">
-        <h2>Lasagna</h2>
-        <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/HobbyProject/Best-Lasagna-550_fnunbt.jpg
-             alt="Lasagna">
+    <div class="jumbotron" id="RecipeTitle">
+        <h1 class="display-4" align="center">Lasagna</h1>
     </div>
 </div>
 
 <div class="container">
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Lasagna Noodles</li>
-        <li>Meat</li>
-        <li>Tomato Sauce</li>
-        <li>Ricotta Cheese</li>
-        <li>Parmasian Cheese</li>
-    </ul>
-    <h2>Directions</h2>
-    <ol>
-        <li>Boil Lasagna Noodles</li>
-        <li>Brown Meat</li>
-        <li>Combine Meat and Sauce</li>
-        <li>Layer in dish:<br>
+    <div class="card">
+        <img src=https://res.cloudinary.com/dv2nrlkn5/image/upload/v1562609706/HobbyProject/Best-Lasagna-550_fnunbt.jpg
+             alt="Lasagna">
+        <div class="card-body">
+            <h2>Ingredients</h2>
             <ul>
-                <li>Meat-Sauce</li>
+                <li>Lasagna Noodles</li>
+                <li>Meat</li>
+                <li>Tomato Sauce</li>
                 <li>Ricotta Cheese</li>
-                <li>Noodle</li>
                 <li>Parmasian Cheese</li>
-                <li>Repeat</li>
             </ul>
+            <h2>Directions</h2>
+            <ol>
+                <li>Boil Lasagna Noodles</li>
+                <li>Brown Meat</li>
+                <li>Combine Meat and Sauce</li>
+                <li>Layer in dish:<br>
+                    <ul>
+                        <li>Meat-Sauce</li>
+                        <li>Ricotta Cheese</li>
+                        <li>Noodle</li>
+                        <li>Parmasian Cheese</li>
+                        <li>Repeat</li>
+                    </ul>
 
-        </li>
-        <li>Cook 1 hr at 350 Degrees</li>
-    </ol>
-    <h2>Serves 8-10</h2>
+                </li>
+                <li>Cook 1 hr at 350 Degrees</li>
+            </ol>
+            <h2>Serves 8-10</h2>
+        </div>
+    </div>
+
 </div>
 <th:block th:replace="/base :: bootstrap">...</th:block>
 </body>
